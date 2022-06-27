@@ -1,0 +1,271 @@
+body {
+  background: #111112;
+}
+.sidebar {
+  width: 19%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 3.47%;
+  box-sizing: border-box;
+  padding-top: 4vw;
+}
+.sidebar img {
+  width: 56%;
+  margin-bottom: 3vw;
+  position: relative;
+}
+.sidebar li {
+  font-family: "Pangram Medium";
+  font-size: 22px;
+  line-height: 22px;
+  color: #F2F2F2;
+  list-style: none;
+  position: relative;
+}
+.sidebar a {
+  position: relative;
+  margin: 0.5vw 0;
+  text-decoration: none;
+  width: auto;
+  height: auto;
+}
+.sidebar a:nth-of-type(1) {
+  margin-bottom: 10vw;
+}
+.content {
+  padding-left: 19%;
+  padding-top: 3vw;
+  padding-right: 19%;
+}
+h1 {
+  font-family: "Pangram Semibold";
+  font-size: 100px;
+  line-height: 90px;
+  color: #F2F2F2;
+  margin-bottom: 6vw;
+  margin-top: 10vw;
+}
+h1:nth-of-type(1) {
+  margin-top: 0;
+}
+h2 {
+  font-family: "Pangram Semibold";
+  font-size: 40px;
+  line-height: 42px;
+  color: #F2F2F2;
+  margin-bottom: 3vw;
+  margin-top: 4vw;
+}
+h3 {
+  font-family: "Pangram Semibold";
+  font-size: 55px;
+  line-height: 58px;
+  color: #F2F2F2;
+  margin-bottom: 3vw;
+  margin-top: 7vw;
+}
+p {
+  font-family: "Pangram Medium";
+  font-size: 22px;
+  line-height: 30px;
+  color: #F2F2F2;
+  margin-top: 2vw
+}
+.which {
+  margin-top: 4vw;
+  /* margin-bottom: 4vw; */
+}
+.which h2 {
+  font-family: "Pangram Medium";
+  margin-right: 40px;
+  display: inline-block;
+  margin-bottom: 1.5vw;
+  margin-top: 0;
+}
+.logoblock1 img {
+  width: 100%;
+  margin-top: 2vw;
+}
+.logoblock1_item img{
+  width: 6.94%;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 0;
+}
+.logoblock1_item {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  margin-top: 2vw;
+}
+.logoblock1_item p:nth-of-type(1) {
+  width: 28%;
+  box-sizing: border-box;
+
+}
+.logoblock1_item p:nth-of-type(2) {
+  width: 48%;
+}
+.logo3 {
+  margin-top: 4vw;
+  width: 100%;
+  margin-bottom: 2vw;
+}
+.logo4 {
+  width: 100%;
+  margin-bottom: 2vw;
+}
+.logo5 {
+  margin-top: 4vw;
+  width: 100%;
+  margin-bottom: 2vw;
+}
+
+.logo6 {
+  width: 47%;
+  margin-bottom: 2vw;
+  margin-top: 4vw;
+}
+
+.logo7 {
+  width: 42%;
+  margin-top: 1vw;
+}
+.logoblock2 {
+  margin-top: 1vw;
+  position: relative;
+}
+.logoblock2 p {
+  position: absolute;
+  left: 60%;
+  top: 10%;
+}
+.logoblock2 p:nth-of-type(1) {
+  top: -0.5vw;
+}
+.logoblock2 p:nth-of-type(2) {
+  top: 16vw;
+}
+.logoblock2 p:nth-of-type(3) {
+  top: 29.8vw;
+}
+.logoblock2 p:nth-of-type(4) {
+  top: 43.5vw;
+}
+.colors {
+  width: 50.4%;
+  margin-top: 3vw;
+}
+.colors2 {width: 100%}
+
+.font1 {
+  font-family: "Pangram Medium"
+}
+.row {
+  margin-top: 2vw;
+  width: 100%;
+}
+.rowp {
+  margin-top: 3vw;
+}
+.sheme1 {
+  position: relative;
+}
+.sheme1 img {
+  width: 100%
+}
+.sheme1 p {
+  position: absolute;
+  width: 141px;
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 0;
+}
+.sheme1 p:nth-of-type(1) {
+  top: 0;
+}
+.sheme1 p:nth-of-type(2) {
+  top: 7.5vw;
+}
+.sheme1 p:nth-of-type(3) {
+  top: 13.5vw;
+}
+.sheme2 {
+  position: relative;
+}
+.sheme2 img {
+  width: 69%;
+  margin-top: 6vw;
+  margin-bottom: 6vw;
+}
+.sheme2 p {
+  position: absolute;
+  width: 191px;
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 0;
+}
+.sheme2 p:nth-of-type(1) {
+  top: 0;
+  left: 40%;
+}
+.sheme2 p:nth-of-type(2) {
+  top: auto;
+  bottom: 0;
+}
+.sheme2 p:nth-of-type(3) {
+  top: auto;
+  bottom: 0;
+  left: 40%;
+}
+.imgsheme2 {
+  width: 100%;
+}
+.imgsheme3 {
+  width: 100%;
+}
+.imgsheme5 {
+  margin-top: 2vw;
+  width: 69%;
+}
+.imgsheme6 {
+  width: 86%;
+}
+.imgsheme7 {
+  width: 86.5%;
+  margin-top: 2vw;
+}
+.sheme3 {
+  position: relative;
+}
+.sheme3 img {
+  width: 100%;
+}
+.sheme3 p {
+  position: absolute;
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 0;
+  width: 84px;
+}
+.sheme3 p:nth-of-type(1) {
+  top: 4vw;
+}
+.sheme3 p:nth-of-type(2) {
+  top: 11vw;
+}
+.sheme3 p:nth-of-type(3) {
+  top: 28vw;
+}
+.sheme3 p:nth-of-type(4) {
+  top: 34.2vw;
+}
+.imgsheme9 {
+  width: 100%;
+}
+.imghover {
+  width: 86.3%;
+}
