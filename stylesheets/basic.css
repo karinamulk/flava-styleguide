@@ -23,17 +23,25 @@ body {
   color: #F2F2F2;
   list-style: none;
   position: relative;
+  margin: 0.5vw 0;
+  transition: all .4s ease;
+
+
 }
 .sidebar a {
   position: relative;
-  margin: 0.5vw 0;
   text-decoration: none;
   width: auto;
   height: auto;
 }
-.sidebar a:nth-of-type(1) {
-  margin-bottom: 10vw;
+.sidebar a:hover li {
+  color: #938D98;
+  transition: all .2s ease;
 }
+.aaa {
+  margin-bottom: 10vw !important;
+}
+
 .content {
   padding-left: 19%;
   padding-top: 3vw;
@@ -268,4 +276,27 @@ p {
 }
 .imghover {
   width: 86.3%;
+}
+.imgsheme11 {
+  width: 99.7%;
+  margin-top: 2vw;
+}
+.imgsheme11 {
+  width: 100%;
+}
+.imgsheme13 {
+  width: 100%;
+
+}
+.grafica {
+  width: 100%;
+  margin-top: 2vw;
+}
+.footer {
+  width: 100%;
+  height: 20vw;
+}
+.nos {
+  width: 100%;
+  margin-top: 2vw;
 }
